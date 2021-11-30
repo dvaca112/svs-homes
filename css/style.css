@@ -254,7 +254,6 @@ section {
 
 .menu .box-container .box .step span {
   font-size: 1.5rem;
-  text-decoration: line-through;
   font-weight: lighter;
 }
 
@@ -553,7 +552,7 @@ section {
     position: absolute;
     top: 100%;
     right: -100%;
-    background: #fff;
+    background: var(--bg);
     width: 30rem;
     height: calc(100vh - 9.5rem);
   }
@@ -563,7 +562,7 @@ section {
   }
 
   .header .navbar a {
-    color: var(--black);
+    color: #201e20;
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
